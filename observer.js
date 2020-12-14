@@ -17,7 +17,7 @@ var listener2 = function listener2() {
 //adiciona por meio do emissor de eventos uma extremidade connection, que aciona o manipulador 1
 eventEmitter.addListener('connection', listener1);
 
-// adiciona por meio do emissor de eventos uma extremidade connection, que aciona o manipulador 1
+// adiciona por meio do emissor de eventos uma extremidade connection, que aciona o manipulador 2
 eventEmitter.on('connection', listener2);
 
 // conta quantidade de ouvintes
